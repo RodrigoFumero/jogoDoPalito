@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    margin-left: 600px;
+    position: absolute;
+}
+
+div {
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    background-image:url("0.png");
+    display: inline-block;
+}
+
+tr {
+    padding: 10px;
+}
+
+td {
+    padding: 80px;
+}
+
+.containerRow1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-left: 10px;
+}
+.containerRow2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-left: 10px;
+}
+.containerRow3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-left: 20;
+}
+
+.containerRow1 figure.avatar img{
+    position: absolute;
+    margin-left: 400px;    
+}
+.containerRow2 figure.avatar img{
+    position: absolute;
+    margin-left: 228px;  
+}
+.containerRow3 figure.avatar img{
+    position: absolute;
+    margin-left: 58px;  
+}
+
+/*
+body {
+    background-color: bisque;
+    ;    
+}
+
+div {
+position: absolute;
+
+;
+
+}
+
+.alinhamento {
+    position: fixed;
+}
+
+tr#row1 {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 600px;
+    margin-right: 50%;
+    display: flex;
+    
+}
+td {
+    position: relative;
+}
+
+tr#row2 {
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 395px;
+    margin-right: 0;
+}
+
+tr#row3 {
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 192px;
+}
+*/
